@@ -1,0 +1,303 @@
+body {
+    padding-top: 80px;
+}
+
+/* HOME */
+
+#mainHome {
+    .container {
+        h1 {
+            @include font-title;
+            font-size:2.5em;
+        }
+
+        h2 {
+            @include font-title;
+            font-size:2em;
+        }
+
+        h3 {
+            font-family: $paragraph;
+            font-weight: 500;
+            font-size:1em;
+            padding-top: 15px;
+        }
+
+        div {
+            div {
+                div {
+                    @include font-paragraph;
+                    padding-top: 15px;
+    
+                }
+            }
+        }
+    }
+
+    .container-fluid {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+#container_home2 {
+    .card {
+        border-radius: 0;
+        border: none;
+        padding: 0;
+    }
+
+    .card-img-top {
+        border-radius: 0;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        overflow: hidden;
+
+        img {
+            opacity: 0.8 !important;
+            transform: scale(1.2) !important;
+            -webkit-transition: all 4s ease;
+            -moz-transition: all 3s ease;
+            -o-transition: all 3s ease;
+            -ms-transition: all 3s ease;
+            transition: all 3s ease;
+        }
+    }
+
+
+}
+
+#button-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    position:relative;
+
+    @include font-paragraph;
+
+    a {
+        position: absolute;
+        text-decoration: none;
+        width: 150px;
+        text-align: center;
+
+        background-color: $secondary-color;
+        border-radius:0.5em;
+        color:white;
+        padding:0.5em 0.5em;
+
+        transition: all 1s;
+    }
+
+    a:hover {
+        border: 1px solid $secondary-color-light;
+        background-color: transparent;
+    }
+}
+
+/* CIERRE HOME */
+
+/* PAGINA HABITACION */
+
+#mainHabitaciones {
+    .container {
+        h1 {
+            @include font-title;
+            font-size:2em;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        h5 {
+            @include font-paragraph;
+            font-size: 1em;
+        }
+
+        p {
+            
+            @include font-paragraph;
+                
+            
+        }
+    }
+
+    .card {
+        border: 0;
+        margin-bottom: 60px;
+    }
+}
+
+/* FIN PAGINA HABITACION */
+
+
+/* PAGINA CONTACTO */
+
+#mapaUbicacion {
+    iframe {
+        width: 100%; 
+        height: 300px;
+    }
+}
+
+#mainContacto {
+
+    .container {
+        padding-top: 10px;
+        padding-bottom: 30px;
+    }
+    
+    h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @include font-title;
+        font-size:1.5em;
+        text-align: center;
+    }
+
+
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        @include font-title;
+        font-size:1.5em
+    }
+
+    .form-label {
+        @include font-paragraph;
+        font-size:1em;
+
+    } 
+
+}
+
+#comoLlegar {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        @include font-title;
+        font-size:1.5em
+    }
+
+    h3 {
+        font-family: $title;
+        font-weight: 500;
+        font-size:1.5em
+    }
+    p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        @include font-paragraph;
+    }
+}
+
+#transportes {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+        font-family: $title;
+        font-weight: 500;
+        color: $primary-color;
+        font-size:1.5em
+    }
+
+    h3 {
+        font-family: $title;
+        font-weight: 500;
+        font-size:1.5em
+    }
+    p {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        @include font-paragraph;
+    }
+
+}
+
+/*FIN PAGINA CONTACTO */
+
+/* PAGINA EL HOTEL */ 
+
+#container_descripcionGaleria {
+    h1 {
+        padding-top: 10px;
+        @include font-title;
+        font-size:1.5em;
+        text-align: center;
+    }
+}
+
+#ContainerDescripcion {
+    
+    padding-bottom: 5px;
+    @include font-paragraph;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#carruselGaleria {
+
+    .carousel {
+        width: 300px; 
+        height: 180px; 
+    }
+
+}
+
+#container_secctions {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .card {
+        border-radius: 0;
+        border: none;
+        padding: 0;
+    }
+
+    .card-img-top {
+        border-radius: 0;
+    }
+
+    .card:hover {
+        cursor: pointer;
+        overflow: hidden;
+
+        img {
+            opacity: 0.8 !important;
+            transform: scale(1.2) !important;
+            -webkit-transition: all 4s ease;
+            -moz-transition: all 3s ease;
+            -o-transition: all 3s ease;
+            -ms-transition: all 3s ease;
+            transition: all 3s ease;
+        }
+    }
+
+}
+
+#container_historia {
+
+    img{
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    h2 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        @include font-title;
+        font-size:1.5em
+        
+    }
+}
