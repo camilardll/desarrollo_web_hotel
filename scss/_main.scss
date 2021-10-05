@@ -45,6 +45,7 @@ body {
         border-radius: 0;
         border: none;
         padding: 0;
+
     }
 
     .card-img-top {
@@ -170,6 +171,16 @@ body {
         font-size:1em;
 
     } 
+
+    a {
+        color: $secondary-color
+    }
+
+    a:hover {
+        color: $primary-color
+    }
+
+
 
 }
 

@@ -1,57 +1,221 @@
 .navbar-nav {
-    font-family: 'Cinzel', serif;
-    font-weight: 500; }
-    .navbar-nav li .dropdown-menu {
-      background-color: #783943; }
-      .navbar-nav li .dropdown-menu li a {
-        color: white !important; }
-  
-  .dropdown-item:hover {
-    background-color: #7e3340; }
-  
-  body {
-    padding-top: 80px; }
-  
-  /* HOME */
-  #mainHome .container h1 {
+  font-family: 'Cinzel', serif;
+  font-weight: 500; }
+  .navbar-nav li .dropdown-menu {
+    background-color: #783943; }
+    .navbar-nav li .dropdown-menu li a {
+      color: white !important; }
+
+.dropdown-item:hover {
+  background-color: #7e3340; }
+
+body {
+  padding-top: 80px; }
+
+/* HOME */
+#mainHome .container h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 2.5em; }
+
+#mainHome .container h2 {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 2em; }
+
+#mainHome .container h3 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 1em;
+  padding-top: 15px; }
+
+#mainHome .container div div div {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-top: 15px; }
+
+#mainHome .container-fluid {
+  padding: 0;
+  margin: 0; }
+
+#container_home2 .card {
+  border-radius: 0;
+  border: none;
+  padding: 0; }
+
+#container_home2 .card-img-top {
+  border-radius: 0; }
+
+#container_home2 .card:hover {
+  cursor: pointer;
+  overflow: hidden; }
+  #container_home2 .card:hover img {
+    opacity: 0.8 !important;
+    transform: scale(1.2) !important;
+    -webkit-transition: all 4s ease;
+    -moz-transition: all 3s ease;
+    -o-transition: all 3s ease;
+    -ms-transition: all 3s ease;
+    transition: all 3s ease; }
+
+#button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+  #button-container a {
+    position: absolute;
+    text-decoration: none;
+    width: 150px;
+    text-align: center;
+    background-color: #757575;
+    border-radius: 0.5em;
+    color: white;
+    padding: 0.5em 0.5em;
+    transition: all 1s; }
+  #button-container a:hover {
+    border: 1px solid #a7a7a7;
+    background-color: transparent; }
+
+/* CIERRE HOME */
+/* PAGINA HABITACION */
+#mainHabitaciones .container h1 {
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 2em;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+
+#mainHabitaciones .container h5 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em; }
+
+#mainHabitaciones .container p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300; }
+
+#mainHabitaciones .card {
+  border: 0;
+  margin-bottom: 60px; }
+
+/* FIN PAGINA HABITACION */
+/* PAGINA CONTACTO */
+#mapaUbicacion iframe {
+  width: 100%;
+  height: 300px; }
+
+#mainContacto .container {
+  padding-top: 10px;
+  padding-bottom: 30px; }
+
+#mainContacto h1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 1.5em;
+  text-align: center; }
+
+#mainContacto h2 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 1.5em; }
+
+#mainContacto .form-label {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1em; }
+
+#mainContacto a {
+  color: #757575; }
+
+#mainContacto a:hover {
+  color: #7e3340; }
+
+#comoLlegar {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #comoLlegar h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-family: "Cinzel", serif;
     font-weight: 500;
     color: #7e3340;
-    font-size: 2.5em; }
-  
-  #mainHome .container h2 {
+    font-size: 1.5em; }
+  #comoLlegar h3 {
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    font-size: 1.5em; }
+  #comoLlegar p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300; }
+
+#transportes {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  #transportes h2 {
+    padding-top: 20px;
+    padding-bottom: 10px;
     font-family: "Cinzel", serif;
     font-weight: 500;
     color: #7e3340;
-    font-size: 2em; }
-  
-  #mainHome .container h3 {
-    font-family: "Roboto", sans-serif;
+    font-size: 1.5em; }
+  #transportes h3 {
+    font-family: "Cinzel", serif;
     font-weight: 500;
-    font-size: 1em;
-    padding-top: 15px; }
-  
-  #mainHome .container div div div {
+    font-size: 1.5em; }
+  #transportes p {
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    padding-top: 15px; }
-  
-  #mainHome .container-fluid {
-    padding: 0;
-    margin: 0; }
-  
-  #container_home2 .card {
+    font-weight: 300; }
+
+/*FIN PAGINA CONTACTO */
+/* PAGINA EL HOTEL */
+#container_descripcionGaleria h1 {
+  padding-top: 10px;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 1.5em;
+  text-align: center; }
+
+#ContainerDescripcion {
+  padding-bottom: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+
+#carruselGaleria .carousel {
+  width: 300px;
+  height: 180px; }
+
+#container_secctions {
+  padding-top: 100px;
+  padding-bottom: 100px; }
+  #container_secctions .card {
     border-radius: 0;
     border: none;
     padding: 0; }
-  
-  #container_home2 .card-img-top {
+  #container_secctions .card-img-top {
     border-radius: 0; }
-  
-  #container_home2 .card:hover {
+  #container_secctions .card:hover {
     cursor: pointer;
     overflow: hidden; }
-    #container_home2 .card:hover img {
+    #container_secctions .card:hover img {
       opacity: 0.8 !important;
       transform: scale(1.2) !important;
       -webkit-transition: all 4s ease;
@@ -59,400 +223,241 @@
       -o-transition: all 3s ease;
       -ms-transition: all 3s ease;
       transition: all 3s ease; }
-  
-  #button-container {
+
+#container_historia img {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+#container_historia h2 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Cinzel", serif;
+  font-weight: 500;
+  color: #7e3340;
+  font-size: 1.5em; }
+
+#footer {
+  display: grid;
+  background-color: #783943;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr, 2fr, 1fr;
+  grid-template-areas: "footercontacto" "footertrip" "footerss"; }
+
+#footercontacto {
+  grid-area: footercontacto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 20px; }
+  #footercontacto h2 {
+    font-family: 'Cinzel', serif;
+    font-weight: 500;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+    margin: 0;
+    padding: 0; }
+  #footercontacto div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 0.8em;
+    color: white; }
+
+#footertrip {
+  grid-area: footertrip;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  #footertrip img {
+    width: 100px; }
+
+#footerss {
+  grid-area: footerss;
+  padding-top: 30px; }
+  #footerss ul {
+    text-decoration: none;
+    list-style: none;
+    height: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300; }
-    #button-container a {
-      position: absolute;
-      text-decoration: none;
-      width: 150px;
-      text-align: center;
-      background-color: #757575;
-      border-radius: 0.5em;
-      color: white;
-      padding: 0.5em 0.5em;
-      transition: all 1s; }
-    #button-container a:hover {
-      border: 1px solid #a7a7a7;
-      background-color: transparent; }
-  
-  /* CIERRE HOME */
-  /* PAGINA HABITACION */
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; }
+  #footerss img {
+    width: 30px;
+    height: 30px; }
+
+@media only screen and (min-width: 768px) {
+  /* QUERIE 768 PAGINA CONTACTO */
+  #mapaUbicacion {
+    padding-top: 10px; }
+    #mapaUbicacion iframe {
+      width: 300px;
+      height: 400px; }
+  /*QUERIE 768 PAGINA HABITACIONES */
   #mainHabitaciones .container h1 {
-    font-family: "Cinzel", serif;
-    font-weight: 500;
-    color: #7e3340;
-    font-size: 2em;
-    padding-top: 30px;
-    padding-bottom: 30px; }
-  
-  #mainHabitaciones .container h5 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 1em; }
-  
-  #mainHabitaciones .container p {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300; }
-  
-  #mainHabitaciones .card {
-    border: 0;
-    margin-bottom: 60px; }
-  
-  /* FIN PAGINA HABITACION */
-  /* PAGINA CONTACTO */
-  #mapaUbicacion iframe {
-    width: 100%;
-    height: 300px; }
-  
-  #mainContacto .container {
-    padding-top: 10px;
-    padding-bottom: 30px; }
-  
-  #mainContacto h1 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: "Cinzel", serif;
-    font-weight: 500;
-    color: #7e3340;
-    font-size: 1.5em;
     text-align: center; }
-  
-  #mainContacto h2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-family: "Cinzel", serif;
-    font-weight: 500;
-    color: #7e3340;
-    font-size: 1.5em; }
-  
-  #mainContacto .form-label {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 1em; }
-  
-  #comoLlegar {
-    padding-top: 30px;
-    padding-bottom: 30px; }
-    #comoLlegar h2 {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-family: "Cinzel", serif;
-      font-weight: 500;
-      color: #7e3340;
-      font-size: 1.5em; }
-    #comoLlegar h3 {
-      font-family: "Cinzel", serif;
-      font-weight: 500;
-      font-size: 1.5em; }
-    #comoLlegar p {
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 300; }
-  
-  #transportes {
-    padding-top: 30px;
-    padding-bottom: 30px; }
-    #transportes h2 {
-      padding-top: 20px;
-      padding-bottom: 10px;
-      font-family: "Cinzel", serif;
-      font-weight: 500;
-      color: #7e3340;
-      font-size: 1.5em; }
-    #transportes h3 {
-      font-family: "Cinzel", serif;
-      font-weight: 500;
-      font-size: 1.5em; }
-    #transportes p {
-      padding-top: 5px;
-      padding-bottom: 5px;
-      font-family: "Roboto", sans-serif;
-      font-weight: 300; }
-  
-  /*FIN PAGINA CONTACTO */
-  /* PAGINA EL HOTEL */
-  #container_descripcionGaleria h1 {
-    padding-top: 10px;
-    font-family: "Cinzel", serif;
-    font-weight: 500;
-    color: #7e3340;
-    font-size: 1.5em;
-    text-align: center; }
-  
-  #ContainerDescripcion {
-    padding-bottom: 5px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    padding-top: 20px;
-    padding-bottom: 20px; }
-  
-  #carruselGaleria .carousel {
-    width: 300px;
-    height: 180px; }
-  
-  #container_secctions {
-    padding-top: 100px;
-    padding-bottom: 100px; }
-    #container_secctions .card {
-      border-radius: 0;
-      border: none;
-      padding: 0; }
-    #container_secctions .card-img-top {
-      border-radius: 0; }
-    #container_secctions .card:hover {
-      cursor: pointer;
-      overflow: hidden; }
-      #container_secctions .card:hover img {
-        opacity: 0.8 !important;
-        transform: scale(1.2) !important;
-        -webkit-transition: all 4s ease;
-        -moz-transition: all 3s ease;
-        -o-transition: all 3s ease;
-        -ms-transition: all 3s ease;
-        transition: all 3s ease; }
-  
-  #container_historia img {
-    width: 100%;
-    padding-top: 10px;
-    padding-bottom: 10px; }
-  
-  #container_historia h2 {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: "Cinzel", serif;
-    font-weight: 500;
-    color: #7e3340;
-    font-size: 1.5em; }
-  
+  /* QUERIE 768 FIN PAGINA HABITACIONES */
   #footer {
-    display: grid;
-    background-color: #A7A7A7;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr, 2fr, 1fr;
-    grid-template-areas: "footercontacto"
-   "footertrip"
-   "footerss"; }
-  
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr, 1fr;
+    grid-template-areas: "footercontacto footertrip" "footercontacto footerss"; }
   #footercontacto {
     grid-area: footercontacto;
     display: flex;
     flex-direction: column;
     align-items: start;
-    margin: 20px; }
+    margin: 30px; }
     #footercontacto h2 {
-      font-family: 'Cinzel', serif;
+      font-family: "Cinzel", serif;
       font-weight: 500;
-      font-size: 1em;
+      font-size: 1.3em;
       text-align: left;
       margin: 0;
       padding: 0; }
-    #footercontacto div {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 300;
-      font-size: 0.8em; }
-  
+    #footercontacto p {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300; }
+  #footertrip {
+    grid-area: footertrip;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    #footertrip img {
+      width: 100px;
+      margin: 10px;
+      margin-right: 70px; }
+  #footerss {
+    grid-area: footerss;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+    margin-right: 30px; }
+    #footerss ul {
+      flex-direction: row;
+      flex-wrap: wrap; }
+    #footerss img {
+      width: 30px;
+      height: 30px;
+      margin: 10px; } }
+
+@media only screen and (min-width: 1024px) {
+  #container_home1 h1 {
+    text-align: right;
+    font-size: 4em; }
+  #container_home1 h2 {
+    text-align: right;
+    font-size: 2.5em; }
+  #container_home1 div p {
+    padding: 20px; }
+  #mainHabitaciones .container h1 {
+    text-align: center; }
+  #footer {
+    grid-area: footer;
+    background-color: #783943;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas: "footercontacto footertrip footerss"; }
+  #footercontacto {
+    grid-area: footercontacto;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 30px; }
+    #footercontacto h2 {
+      font-family: "Cinzel", serif;
+      font-weight: 500;
+      font-size: 1.5em;
+      text-align: left;
+      margin: 0;
+      padding: 0; }
+    #footercontacto p {
+      font-family: "Roboto", sans-serif;
+      font-weight: 300; }
   #footertrip {
     grid-area: footertrip;
     display: flex;
     justify-content: center;
-    align-items: center; }
+    align-items: center;
+    /* FIN FOOTER QUERIE 1024 */ }
     #footertrip img {
-      width: 150px; }
-  
-  #footerss {
-    grid-area: footerss; }
-    #footerss ul {
-      text-decoration: none;
-      list-style: none;
-      height: 30px;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-      align-items: center; }
-    #footerss img {
-      width: 30px;
-      height: 30px; }
-  
-  @media only screen and (min-width: 768px) {
-    /* QUERIE 768 PAGINA CONTACTO */
-    #mapaUbicacion {
-      padding-top: 10px; }
-      #mapaUbicacion iframe {
-        width: 300px;
-        height: 400px; }
-    /*QUERIE 768 PAGINA HABITACIONES */
-    #mainHabitaciones .container h1 {
-      text-align: center; }
-    /* QUERIE 768 FIN PAGINA HABITACIONES */
-    #footer {
-      grid-template-columns: repeat(2, 1fr);
-      grid-template-rows: 1fr, 1fr;
-      grid-template-areas: "footercontacto footertrip"
-   "footercontacto footerss"; }
-    #footercontacto {
-      grid-area: footercontacto;
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      margin: 30px; }
-      #footercontacto h2 {
-        font-family: "Cinzel", serif;
-        font-weight: 500;
-        font-size: 1.3em;
-        text-align: left;
-        margin: 0;
-        padding: 0; }
-      #footercontacto p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300; }
-    #footertrip {
-      grid-area: footertrip;
-      display: flex;
-      justify-content: flex-end;
-      align-items: center; }
-      #footertrip img {
-        width: 100px;
-        margin: 10px;
-        margin-right: 70px; }
-    #footerss {
-      grid-area: footerss;
-      display: flex;
-      justify-content: flex-end;
-      margin-bottom: 30px;
-      margin-right: 30px; }
-      #footerss ul {
+      width: 150px;
+      display: flex; }
+    #footertrip img:hover {
+      animation-name: footertrip_img;
+      animation-iteration-count: 1;
+      animation-timing-function: linear;
+      animation-duration: 0.6s;
+      animation-delay: 0s; }
+  @keyframes footertrip_img {
+    0% {
+      transform: rotate(1deg); }
+    50% {
+      transform: rotate(-1deg); } }
+    #footertrip #footerss {
+      grid-area: footerss; }
+      #footertrip #footerss ul {
+        text-decoration: none;
+        list-style: none;
+        height: 150px;
+        display: flex;
         flex-direction: row;
-        flex-wrap: wrap; }
-      #footerss img {
-        width: 30px;
-        height: 30px;
-        margin: 10px; } }
-  
-  @media only screen and (min-width: 1024px) {
-    #container_home1 h1 {
-      text-align: right;
-      font-size: 4em; }
-    #container_home1 h2 {
-      text-align: right;
-      font-size: 2.5em; }
-    #container_home1 div p {
-      padding: 20px; }
-    #mainHabitaciones .container h1 {
-      text-align: center; }
-    #footer {
-      grid-area: footer;
-      background-color: #a7a7a7;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 1fr;
-      grid-template-areas: "footercontacto footertrip footerss"; }
-    #footercontacto {
-      grid-area: footercontacto;
-      display: flex;
-      flex-direction: column;
-      align-items: start;
-      margin: 30px; }
-      #footercontacto h2 {
-        font-family: "Cinzel", serif;
-        font-weight: 500;
-        font-size: 1.5em;
-        text-align: left;
-        margin: 0;
-        padding: 0; }
-      #footercontacto p {
-        font-family: "Roboto", sans-serif;
-        font-weight: 300; }
-    #footertrip {
-      grid-area: footertrip;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      /* FIN FOOTER QUERIE 1024 */ }
-      #footertrip img {
-        width: 150px;
-        display: flex; }
-      #footertrip img:hover {
-        animation-name: footertrip_img;
-        animation-iteration-count: 2;
-        animation-timing-function: linear;
-        animation-duration: 0.4s;
-        animation-delay: 0s; }
-    @keyframes footertrip_img {
-      0% {
-        transform: rotate(4deg); }
-      50% {
-        transform: rotate(-4deg); } }
-      #footertrip #footerss {
-        grid-area: footerss; }
-        #footertrip #footerss ul {
-          text-decoration: none;
-          list-style: none;
-          height: 150px;
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: center; }
-        #footertrip #footerss img {
-          width: 40px;
-          height: 40px;
-          margin: 20px; }
-    /* QUERIE 1024 PAGINA CONTACTO */
-    #mapaUbicacion iframe {
-      width: 500px;
-      height: 450px; }
-    #mainContacto h1 {
-      padding-top: 30px;
+        justify-content: flex-end;
+        align-items: center; }
+      #footertrip #footerss img {
+        width: 40px;
+        height: 40px;
+        margin: 20px; }
+  /* QUERIE 1024 PAGINA CONTACTO */
+  #mapaUbicacion iframe {
+    width: 500px;
+    height: 450px; }
+  #mainContacto h1 {
+    padding-top: 30px;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    color: #7e3340;
+    font-size: 2em;
+    text-align: center; }
+  /* QUERIE EL HOTEL 1024 */
+  #container_descripcionGaleria h1 {
+    padding-top: 30px;
+    font-family: "Cinzel", serif;
+    font-weight: 500;
+    color: #7e3340;
+    font-size: 2em;
+    text-align: center; }
+  #containerDescripcionGaleria {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  #carruselGaleria .carousel {
+    width: 640px;
+    height: 400px; }
+  #container_secctions {
+    padding-top: 40px;
+    padding-bottom: 40px; }
+  #container_historia {
+    padding-bottom: 50px; }
+    #container_historia img {
+      padding-left: 110px;
+      padding-right: 110px;
+      padding-top: 20px;
+      padding-bottom: 20px; }
+    #container_historia h2 {
+      padding-top: 10px;
+      padding-bottom: 10px;
       font-family: "Cinzel", serif;
       font-weight: 500;
       color: #7e3340;
       font-size: 2em;
       text-align: center; }
-    /* QUERIE EL HOTEL 1024 */
-    #container_descripcionGaleria h1 {
-      padding-top: 30px;
-      font-family: "Cinzel", serif;
-      font-weight: 500;
-      color: #7e3340;
-      font-size: 2em;
-      text-align: center; }
-    #containerDescripcionGaleria {
-      padding-top: 40px;
-      padding-bottom: 40px; }
-    #carruselGaleria .carousel {
-      width: 640px;
-      height: 400px; }
-    #container_secctions {
-      padding-top: 40px;
-      padding-bottom: 40px; }
-    #container_historia {
-      padding-bottom: 50px; }
-      #container_historia img {
-        padding-left: 110px;
-        padding-right: 110px;
-        padding-top: 20px;
-        padding-bottom: 20px; }
-      #container_historia h2 {
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-family: "Cinzel", serif;
-        font-weight: 500;
-        color: #7e3340;
-        font-size: 2em;
-        text-align: center; }
-      #container_historia p {
-        padding-left: 100px;
-        padding-right: 100px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 300; }
-      #container_historia .accordion {
-        padding-left: 100px;
-        padding-right: 100px; } }
-  
+    #container_historia p {
+      padding-left: 100px;
+      padding-right: 100px;
+      font-family: "Roboto", sans-serif;
+      font-weight: 300; }
+    #container_historia .accordion {
+      padding-left: 100px;
+      padding-right: 100px; } }
