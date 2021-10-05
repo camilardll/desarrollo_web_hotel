@@ -136,6 +136,12 @@ body {
   font-weight: 300;
   font-size: 1em; }
 
+#mainContacto a {
+  color: #757575; }
+
+#mainContacto a:hover {
+  color: #7e3340; }
+
 #comoLlegar {
   padding-top: 30px;
   padding-bottom: 30px; }
@@ -233,7 +239,7 @@ body {
 
 #footer {
   display: grid;
-  background-color: #A7A7A7;
+  background-color: #783943;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 2fr, 2fr, 1fr;
@@ -248,6 +254,7 @@ body {
   #footercontacto h2 {
     font-family: 'Cinzel', serif;
     font-weight: 500;
+    color: white;
     font-size: 1em;
     text-align: left;
     margin: 0;
@@ -255,7 +262,8 @@ body {
   #footercontacto div {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
-    font-size: 0.8em; }
+    font-size: 0.8em;
+    color: white; }
 
 #footertrip {
   grid-area: footertrip;
@@ -263,10 +271,11 @@ body {
   justify-content: center;
   align-items: center; }
   #footertrip img {
-    width: 150px; }
+    width: 100px; }
 
 #footerss {
-  grid-area: footerss; }
+  grid-area: footerss;
+  padding-top: 30px; }
   #footerss ul {
     text-decoration: none;
     list-style: none;
@@ -346,7 +355,7 @@ body {
     text-align: center; }
   #footer {
     grid-area: footer;
-    background-color: #a7a7a7;
+    background-color: #783943;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -378,15 +387,15 @@ body {
       display: flex; }
     #footertrip img:hover {
       animation-name: footertrip_img;
-      animation-iteration-count: 2;
+      animation-iteration-count: 1;
       animation-timing-function: linear;
-      animation-duration: 0.4s;
+      animation-duration: 0.6s;
       animation-delay: 0s; }
   @keyframes footertrip_img {
     0% {
-      transform: rotate(4deg); }
+      transform: rotate(1deg); }
     50% {
-      transform: rotate(-4deg); } }
+      transform: rotate(-1deg); } }
     #footertrip #footerss {
       grid-area: footerss; }
       #footertrip #footerss ul {
